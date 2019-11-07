@@ -17,7 +17,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/under-c-en-US",
+            "outputPath": "docs/",
+            "baseHref": "/ng-internationalization/",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -59,7 +60,8 @@
             },
             "fr-FR": {
               "aot": true,
-              "outputPath": "dist/fr-FR",
+              "outputPath": "docs/fr",
+              "baseHref": "/ng-internationalization/fr/",
               "i18nFile": "src/locales/messages.fr.xlf",
               "i18nFormat": "xlf",
               "i18nLocale": "fr",
@@ -67,7 +69,8 @@
             },
             "el-GR": {
               "aot": true,
-              "outputPath": "dist/el-GR",
+              "outputPath": "docs/el",
+              "baseHref": "/ng-internationalization/el/",
               "i18nFile": "src/locales/messages.el.xlf",
               "i18nFormat": "xlf",
               "i18nLocale": "el-GR",
