@@ -9,6 +9,7 @@
     "build": "ng build",
     "build:fr": "ng build --configuration=fr-FR",
     "build:gr": "ng build --configuration=el-GR",
+    "build:all": "npm run build && npm run build:fr && npm run build:gr ",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
