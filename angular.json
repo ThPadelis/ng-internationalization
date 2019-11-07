@@ -57,18 +57,18 @@
                 }
               ]
             },
-            "fr": {
+            "fr-FR": {
               "aot": true,
-              "outputPath": "dist/under-c-fr",
-              "i18nFile": "src/locale/messages.fr.xlf",
+              "outputPath": "dist/fr-FR",
+              "i18nFile": "src/locales/messages.fr.xlf",
               "i18nFormat": "xlf",
               "i18nLocale": "fr",
               "i18nMissingTranslation": "error"
             },
             "el-GR": {
               "aot": true,
-              "outputPath": "dist/under-c-el-GR",
-              "i18nFile": "src/locale/messages.gr.xlf",
+              "outputPath": "dist/el-GR",
+              "i18nFile": "src/locales/messages.el.xlf",
               "i18nFormat": "xlf",
               "i18nLocale": "el-GR",
               "i18nMissingTranslation": "error"
@@ -84,8 +84,8 @@
             "production": {
               "browserTarget": "ng-internationalization:build:production"
             },
-            "fr": {
-              "browserTarget": "ng-internationalization:build:fr"
+            "fr-FR": {
+              "browserTarget": "ng-internationalization:build:fr-FR"
             },
             "el-GR": {
               "browserTarget": "ng-internationalization:build:el-GR"

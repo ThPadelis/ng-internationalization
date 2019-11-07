@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap&subset=greek");
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #6441a5;
+  background: -webkit-linear-gradient(to right, #6441a5, #2a0845);
+  background: linear-gradient(to right, #6441a5, #2a0845);
+
+  section {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: #cec6d4;
+    border: solid thin #cec6d4;
+    padding: 40px;
+    width: 50%;
+    -webkit-box-shadow: 15px 15px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 15px 15px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 15px 15px 5px 0px rgba(0, 0, 0, 0.75);
+
+    a {
+      color: inherit;
+    }
+
+    small {
+      display: block;
+      margin-top: 10px;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="articleHeading" datatype="html">
+        <source>Why is Internationalization so important?</source>
+        <target>Γιατί είναι τόσο σημαντική η διεθνοποίηση;</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">Title for the article</note>
+        <note priority="1" from="meaning">Article Heading</note>
+      </trans-unit>
+
+      <trans-unit id="articleDescription" datatype="html">
+        <source>These days, with so many websites to choose from, making applications available and user-friendly to a worldwide audience is important. It&apos;s the move to make a better user experience.</source>
+        <target>Αυτές τις μέρες, ανάμεσα σε τόσους ιστότοπους για να διαλέξεις, κάνοντας εφαρμογές διαθέσιμες και φιλικές προς τον χρήστη είναι σημαντικό. Είναι μία κίνηση για καλύτερη εμπειρία χρήστη.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description">Description for the article</note>
+        <note priority="1" from="meaning">Article Description</note>
+      </trans-unit>
+
+      <trans-unit id="fullArticle" datatype="html">
+        <source>Find the full article <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>here<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+        <target>Βρείτε ολόκληρο το άρθρο <x id="START_LINK" ctype="x-a" equiv-text="&lt;a&gt;"/>εδώ<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/app.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description">Read the whole article</note>
+        <note priority="1" from="meaning">Full Article</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
